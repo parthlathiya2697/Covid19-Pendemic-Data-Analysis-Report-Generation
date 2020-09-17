@@ -1,0 +1,11 @@
+READ ME
+=======
+
+Dataset:
+COVID19 Tweets data collection started on 25/7/2020.
+You can found the dataset here - https://drive.google.com/drive/folders/1uww8K6PUaHfF7_ZMgGFHE7J6stptarYU?usp=sharing
+
+Problem Statement
+Perform analysis on people tweets about COVID-19. Derive breakthrough insights like finding what kind of subjects use this hashtag, look at the geographical distribution (country), cluster and evaluate sentiments, look at trends (on an average, candidate shares at least 7 substantial insights).
+
+There are no hard and fast rules on how to execute this task or what to find -- we are giving you a freehand. We want you to understand the ask here, analyze the dataset closely, plan out what insight you can deliver in the limited time through apt visualizations, and execute. Breadth and depth of your imagination, how well you structure the problem and thoughts to come down to a solution is what we will evaluate first, then comes the code. 
