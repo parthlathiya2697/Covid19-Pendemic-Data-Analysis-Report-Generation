@@ -7,16 +7,18 @@ Perform **Analysis** on people tweets about COVID-19. Derive breakthrough insigh
 <img src='Graphics/Tweet-Analysis.png'/>
 
 ### About Data
-Data is different attributes of the tweets, it's username, likes, followers, location, etc.
+Data consists of attributes of tweet like tweet text, likes, etc. and it's related information like username, user_followers, user_friends, etc.
 - Data is in **csv** format, training samples: 179109 , features: 13 which various attributes.
+- Data is **untidy**, i.e., it needs to be preprocessed first.
 
 ### Feature Engineering
-I created 8 new features from existing features to get more additional insighful information from the dataset.
+- Along with original 13 attributes, I created 6 new additional features from existing features to get additional information from the dataset.
+- I also created a seperate user growth dataset from the original dataset to analyse the behind the scenes of user account growths based on number of posts, number of followers increased, etc.
 
 ### Data Analysis Insights with understanding
 - Data has **missing values**.
 - There are mostly **Contineous Features** as well as some **Categorial Nominal Features**.
-<img src='Graphics/Eda.gif' width=450/>
+<img src='Graphics/Eda.gif'/>
    
 ## Conclusion
 **THE STORY TELLING**        
