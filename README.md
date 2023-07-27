@@ -1,27 +1,28 @@
-# COVID19 Tweets Data Analysis
+🦠 COVID19 Tweets Data Analysis 📊
 Finding useful Insights from twitter data.
 
-## Problem Statement
+## Problem Statement 🎯
 Perform **Analysis** on people tweets about COVID-19. Derive breakthrough insights like finding what kind of subjects use this hashtag, look at the geographical distribution (country), cluster and evaluate sentiments, look at trends (on an average, at least 7 substantial insights).
 
 <img src='Graphics/Tweet-Analysis.png'/>
 
-### About Data
+### About Data 📋
 Data consists of attributes of tweet like tweet text, likes, etc. and it's related information like username, user_followers, user_friends, etc.
-- Data is in **csv** format, training samples: 179109 , features: 13 which various attributes.
-- Data is **untidy**, i.e., it needs to be preprocessed first.
+- Data format: CSV
+- Training samples: 179,109
+- Features: 13 with various attributes
+- Data is untidy, and preprocessing is required.
 
-### Feature Engineering
-- Along with original 13 attributes, I created 6 new additional features from existing features to get additional information from the dataset.
-- I also created a seperate user growth dataset from the original dataset to analyse the behind the scenes of user account growths based on number of posts, number of followers increased, etc.
+### Feature Engineering 🛠️
+In addition to the original 13 attributes, I created 6 new features to extract additional information from the dataset. I also generated a separate user growth dataset to analyze the behind-the-scenes of user account growth based on the number of posts, followers, etc.
 
-### Data Analysis Insights with understanding
-- Data has **missing values**.
-- There are mostly **Contineous Features** as well as some **Categorial Nominal Features**.
+### Data Analysis and Insights 📈 
+- The data contains **missing values** that need to be addressed.
+- The dataset includes mostly **continuous features**, along with some **categorical nominal** features.
 <img src='Graphics/Eda.gif'/>
    
-## Conclusion
-**THE STORY TELLING**        
+## Conclusion  📝
+**THE STORY TELLING 📖**     
 I have analysed the tweets dating from 24st July 2020 to 30th August 2020. Among all these tweets, 50% of the overall tweets were sent combined `Phones and Tablets`, 35% from `twitter website` and rest from other `3rd party sources`. However, top tweeters use more `twitter website` and `other sources`. This might be because they are professionals and have their own platforms, automations, etc.     
 
 A very small sample of the users are verified in the total population, but it is not surprising that almost half users are verified in the top twitters list. They post more posts and are generally oldest amongst others. We can also notice that verified users have high followers but less number of friends. Also, the verified accounts that are old enough had a steep inclined verticle follower growth in this time span. 
